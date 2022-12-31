@@ -95,7 +95,13 @@ body {
 }
 .blue-bg {
   background: #579ffb;
+
 }
+
+.white-text {
+  color: white;
+}
+
 .msg-info {
   display: flex;
   justify-content: space-between;
