@@ -26,7 +26,7 @@ function App() {
             <div className="msg-info">
               <div className="msg-info-name">{v.bot ? "Qwacky" : "You"}</div>
             </div>
-            <div className="msg-text white-text">{v.message}</div>
+            <div className="msg-text">{v.message}</div>
           </div>
         ))}
       </main>
