@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: #f2bc94;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh; 
+        }   
+
+        .outer {
+            height: 30rem;
+            width: 30rem;
+            border-radius: 30rem;
+            background: rgba(48, 17, 13, 0.667);
+            display: flex;    
+            align-items: center;
+            justify-content: center;
+            animation-name: pulse;
+            animation-duration: 9s;
+            animation-iteration-count: infinite;
+        }
+
+        .inner {
+            height: 22.5rem;
+            width: 22.5rem;
+            border-radius: 22.5rem;
+            background: rgba(114, 38, 32, .333);
+            display: flex;    
+            align-items: center;
+            justify-content: center;
+            animation-name: pulse;
+            animation-duration: 12s;
+            animation-iteration-count: infinite;
+        }
+
+        .instructional-text {
+            text-align: center;
+            color: blanchedalmond;
+            font-family: monospace;
+            font-size: 16px;
+            font-weight: 200;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+    <title>Just relax</title>
+</head>
+<body>
+    <div class = "pulsating-circle outer">
+        <div class="pulsating-circle inner">
+            <div class = "instructional-text">
+                <p>Take slow, deep breaths.</p>
+                <p>Breathe in as the circle expands,</p>
+                <p>and breathe out as the circle contracts</p>
+            </div>
+        </div>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
